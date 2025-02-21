@@ -15,7 +15,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault;
+    e.preventDefault();
 
     const eventObject = {
       title,
@@ -26,7 +26,7 @@ const Home = () => {
 
     setEvent(eventObject);
 
-    navigate("/countdown");
+    navigate("/contador");
   };
 
   return (
